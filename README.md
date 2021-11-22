@@ -3,6 +3,7 @@ When you attain the desired accuracy of a model the next question is how to use 
 We use SVM(suport vector machine) to train the model on ECG images which contains images of normal and abnormal patients.
 The first part of the code is to read the images from two folders(can be many depending on data) present in the root folder.
 We give the same size to all the images and store them in the list as features of the data.
+# Feature engineering
 Labels of the data is two folders named as normal and abnormal.
 The next step was to split the data into train and test sets to see validation of the model.
 In the next two parts of the code, we convert the data into a NumPy array to reshape the data so that model can be fit on it.
